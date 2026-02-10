@@ -264,8 +264,8 @@ brainx_migrate() {
         return 1
     fi
     
-    # If no source specified, use 'all'
-    if [[ "$1" == --* ]] || [ $# -eq 0 ]; then
+    # If no args or first arg starts with --, use 'all' as source
+    if [ $# -eq 0 ] || [[ "${1:-}" == --* ]]; then
         "$BRAINX_SCRIPTS/migrate.sh" all "$@"
     else
         "$BRAINX_SCRIPTS/migrate.sh" "$@"

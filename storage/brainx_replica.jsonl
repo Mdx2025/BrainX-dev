@@ -1,0 +1,112 @@
+{
+  "id": "bx_1770728982_2d3fff7c",
+  "timestamp": "2026-02-10T13:09:42+00:00",
+  "source": "cli:add",
+  "content": {
+    "raw": "Test decision for integration test --category=test",
+    "processed": "Test decision for integration test --category=test",
+    "summary": ""
+  },
+  "classification": {
+    "type": "decision",
+    "tier": "warm",
+    "category": "general",
+    "confidence": 0.95
+  },
+  "entities": [],
+  "relations": [],
+  "context": {
+    "session_id": "cli",
+    "agent": "brainx",
+    "channel": "cli"
+  },
+  "metadata": {
+    "extracted_from": "cli",
+    "auto_learned": false,
+    "verified": true
+  },
+  "tags": [],
+  "access_count": 0,
+  "last_accessed": "2026-02-10T13:09:42+00:00"
+}
+{
+  "id": "bx_1770728982_373c3e67",
+  "timestamp": "2026-02-10T13:09:42+00:00",
+  "source": "cli:add",
+  "content": {
+    "raw": "PostgreSQL database for main project --category=test",
+    "processed": "PostgreSQL database for main project --category=test",
+    "summary": ""
+  },
+  "classification": {
+    "type": "note",
+    "tier": "warm",
+    "category": "general",
+    "confidence": 0.95
+  },
+  "entities": [],
+  "relations": [],
+  "context": {
+    "session_id": "cli",
+    "agent": "brainx",
+    "channel": "cli"
+  },
+  "metadata": {
+    "extracted_from": "cli",
+    "auto_learned": false,
+    "verified": true
+  },
+  "tags": [],
+  "access_count": 0,
+  "last_accessed": "2026-02-10T13:09:42+00:00"
+}
+{
+  "id": "bx_1770728982_a4a18b42",
+  "timestamp": "2026-02-10T13:09:42+00:00",
+  "source": "cli:add",
+  "content": {
+    "raw": "Redis cache configuration --category=test",
+    "processed": "Redis cache configuration --category=test",
+    "summary": ""
+  },
+  "classification": {
+    "type": "note",
+    "tier": "warm",
+    "category": "general",
+    "confidence": 0.95
+  },
+  "entities": [],
+  "relations": [],
+  "context": {
+    "session_id": "cli",
+    "agent": "brainx",
+    "channel": "cli"
+  },
+  "metadata": {
+    "extracted_from": "cli",
+    "auto_learned": false,
+    "verified": true
+  },
+  "tags": [],
+  "access_count": 0,
+  "last_accessed": "2026-02-10T13:09:42+00:00"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
